@@ -10,5 +10,6 @@
 - yarn dev // sobe a aplicação com a configuração do arquivo package.json 'scripts'
 - yarn add mongoose // posibilita a comunicação(acesso) do node com base de dados mongo
 - yarn add axios // para fazer requisições Rest
+- yarn add cors // instala o pacote cors para permitir acesso externo para ser usado pelo react
 
 - index => mostrar uma lista; show => mostrar um único; store => criar; update => alterar; destroy => deletar
