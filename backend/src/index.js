@@ -4,8 +4,7 @@ const routes = require('./routes');
 
 const app = express();
 
-//mongoose.connect('mongodb+srv://wellingtonti23:23081991@cluster0-insut.mongodb.net/week10?retryWrites=true&w=majority', {
-mongoose.connect('mongodb://teste:teste@cluster0-shard-00-00-insut.mongodb.net:27017,cluster0-shard-00-01-insut.mongodb.net:27017,cluster0-shard-00-02-insut.mongodb.net:27017/test?ssl=true&replicaSet=Cluster0-shard-0&authSource=admin&retryWrites=true&w=majority', {
+mongoose.connect('mongodb://<user>:<password>@cluster0-shard-00-00-insut.mongodb.net:27017,cluster0-shard-00-01-insut.mongodb.net:27017,cluster0-shard-00-02-insut.mongodb.net:27017/test?ssl=true&replicaSet=Cluster0-shard-0&authSource=admin&retryWrites=true&w=majority', {
     useNewUrlParser: true,
     useUnifiedTopology: true 
 });
