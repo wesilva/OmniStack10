@@ -13,3 +13,6 @@
 - yarn add cors // instala o pacote cors para permitir acesso externo para ser usado pelo react
 
 - index => mostrar uma lista; show => mostrar um único; store => criar; update => alterar; destroy => deletar
+
+- Instalar socket.io
+yarn add socket.io 

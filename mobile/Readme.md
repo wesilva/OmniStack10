@@ -36,3 +36,6 @@ expo install react-native-webview
 
 - Instalar axios
 yarn add axios
+
+- Instalar socket io client
+yarn add socket.io-client
